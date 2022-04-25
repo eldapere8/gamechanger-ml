@@ -61,7 +61,7 @@ setuptools.setup(
         "License :: ",
         "Operating System :: OS Independent",
     ],
-    python_requires=">=3.8.0",
+    python_requires=">=3.0.0",
     install_requires=[
         p
         for p in parse_requirements(REQUIREMENTS_PATH)
